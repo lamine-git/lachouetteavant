@@ -290,6 +290,9 @@ a:hover {
 .navbar {
   margin-bottom: 0;
   z-index: 1;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-between; */
 }
 
 .navbar-brand {
@@ -756,7 +759,8 @@ h4 {
 }
 
 .black-background {
-  background-color: rgba(165, 147, 99, 0.7);
+  /* (165, 147, 99, 0.7) */
+  background-color: rgb(165, 147, 99, 0.7);
   padding: 40px 40px 40px 40px;
 }
 
@@ -1050,4 +1054,24 @@ h4 {
 .mysize {
   font-size: 1.3em;
   font-weight: bold;
+}
+
+.textcolorh2 {
+  color: #1f1f1f !important;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.taillep {
+  font-size: 1.1em;
+}
+
+.couleurh2 {
+  color: #fff !important;
+}
+.colorcontact {
+  color: #000 !important;
+}
+.taillecontact {
+  font-size: 1.2em;
 }
